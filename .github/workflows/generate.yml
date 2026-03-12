@@ -2,8 +2,6 @@ name: Generate SBE Rust Code
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 * * * *"
 
 permissions:
   contents: write
