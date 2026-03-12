@@ -28,7 +28,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add generated
+          git add spot_stream
           git diff --cached --quiet || git commit -m "Update generated SBE code"
 
           git push
