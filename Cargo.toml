@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "spot_stream",
+]
+resolver = "3"
